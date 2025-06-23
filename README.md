@@ -1,1 +1,3 @@
 # LUMI
+
+LUMI é uma inteligência artificial adaptativa que auxilia na alfabetização de crianças neuro divergentes, de 4 a 14 anos, identificando seu nível de conhecimento e os estímulos que mais funcionam para seu aprendizado. Por meio de atividades digitais personalizadas, criadas com base no desempenho da criança, Lumi replica os estímulos mais eficazes — sejam visuais, sonoros ou sensoriais — e evolui junto com ela. A aplicação registra o progresso da criança e gera relatórios para pais e educadores, oferecendo uma ferramenta acessível, inclusiva e inteligente para qualquer ambiente de ensino.
