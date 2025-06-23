@@ -5,7 +5,7 @@
 
 ## 2. Objetivo do Projeto
 
-O projeto visa criar uma inteligência artificial adaptativa para auxiliar na alfabetização de crianças neurodivergentes, considerando suas necessidades e estilos de aprendizagem. A solução permite que a IA avalie o nível de conhecimento da criança e identifique quais estímulos — visuais, sonoros ou sensoriais digitais — são mais eficazes para ela. A partir disso, adapta atividades personalizadas que promovem o aprendizado de forma inclusiva, interativa e eficiente. O público-alvo são crianças de 4 a 15 anos, acompanhadas por pais, cuidadores ou educadores.
+O projeto visa criar uma inteligência artificial adaptativa para auxiliar na alfabetização de crianças neurodivergentes, considerando suas necessidades e estilos de aprendizagem. A solução permite que a IA avalie o nível de conhecimento da criança e identifique quais estímulos — visuais, sonoros ou sensoriais digitais — são mais eficazes para ela. A partir disso, adapta atividades personalizadas que promovem o aprendizado de forma inclusiva, interativa e eficiente. O público-alvo são crianças de 4 a 14 anos, acompanhadas por pais, cuidadores ou educadores.
 
 
 
