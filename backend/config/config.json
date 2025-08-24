@@ -1,0 +1,17 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./database.sqlite"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory:"
+  },
+  "production": {
+    "username": "postgres.qrozgslbpfstikrbqlxg",
+    "password": "34098271Caroline2019@",
+    "database": "postgres",
+    "host": "aws-0-us-east-2.pooler.supabase.com",
+    "dialect": "postgres"
+  }
+}
