@@ -28,7 +28,6 @@ export default function TrilhaAprendizado({ onIniciarFase, onAbrirDashboard }) {
         { id: 3, palavra: 'GATO', nivel: 1 },
         { id: 4, palavra: 'ESCOLA', nivel: 2 },
         { id: 5, palavra: 'FAMÍLIA', nivel: 2 },
-        { id: 6, palavra: 'BORBOLETA', nivel: 3 }
       ];
 
       // Aplicar progresso do contexto
@@ -214,12 +213,23 @@ export default function TrilhaAprendizado({ onIniciarFase, onAbrirDashboard }) {
       </button>
 
       {/* Header */}
-      <div style={estiloHeader}>
-        <h1 style={{fontSize: '48px', margin: '0 0 10px 0'}}>🎯 Trilha de Alfabetização</h1>
-        <p style={{fontSize: '20px', margin: 0, opacity: 0.9}}>
-          Olá, {user?.nome || 'Pequeno Aprendiz'}! Complete cada fase para desbloquear a próxima
-        </p>
-      </div>
+<div style={estiloHeader}>
+  <div style={{ display: 'flex', alignItems: 'center', gap: '300px' }}>
+    <img 
+      src="public/logo.png" // <-- coloque aqui o caminho da sua logo
+      alt="Logo" 
+      style={{ width: '60px', height: '60px' }}
+    />
+    <h1 style={{ fontSize: '48px', margin: '10' }}>
+      Trilha de Alfabetização
+    </h1>
+  </div>
+  
+  <p style={{ fontSize: '20px', margin: 0, opacity: 0.9 }}>
+    Olá, {user?.nome || 'Pequeno Aprendiz'}! Complete cada fase para desbloquear a próxima
+  </p>
+</div>
+
 
       {/* Trilha */}
       <div style={estiloTrilha}>
