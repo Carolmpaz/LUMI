@@ -31,7 +31,9 @@ function AppContent() {
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#f8f9fa',
-        fontFamily: 'Arial, sans-serif'
+        fontFamily: 'Arial, sans-serif',
+        margin: 0,
+        padding: 0
       }}>
         <div style={{ textAlign: 'center' }}>
           <div style={{ fontSize: '48px', marginBottom: '20px' }}>⏳</div>
@@ -42,21 +44,7 @@ function AppContent() {
   }
 
   if (!usuario) {
-    return (
-      <div>
-        <div style={{ padding: '20px', backgroundColor: '#f0f0f0', textAlign: 'center' }}>
-          <p>Debug: Usuario = {usuario ? 'logado' : 'não logado'}</p>
-          <p>Debug: Token = {localStorage.getItem('token') || 'nenhum'}</p>
-          <button onClick={() => {
-            localStorage.clear();
-            window.location.reload();
-          }}>
-            🔄 Limpar Cache e Recarregar
-          </button>
-        </div>
-        <AuthScreen />
-      </div>
-    );
+    return <AuthScreen />;
   }
 
   const handleIniciarFase = (palavra) => {
@@ -104,7 +92,9 @@ function AppContent() {
     <div style={{
       minHeight: '100vh',
       backgroundColor: '#f8f9fa',
-      fontFamily: 'Arial, sans-serif'
+      fontFamily: 'Arial, sans-serif',
+      margin: 0,
+      padding: 0
     }}>
       {/* Header com informações do usuário */}
       <header style={{
